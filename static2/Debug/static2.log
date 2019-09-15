@@ -1,0 +1,5 @@
+﻿  static2.cpp
+c:\users\hailv\desktop\labs\templatelab\static2\static2.cpp(30): warning C4018: '<': signed/unsigned mismatch
+c:\users\hailv\desktop\labs\templatelab\static2\static2.cpp(39): warning C4018: '<': signed/unsigned mismatch
+  static2.vcxproj -> C:\Users\hailv\Desktop\Labs\TemplateLab\Debug\static2.exe
+  static2.vcxproj -> C:\Users\hailv\Desktop\Labs\TemplateLab\Debug\static2.pdb (Full PDB)

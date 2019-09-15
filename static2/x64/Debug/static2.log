@@ -1,0 +1,4 @@
+﻿  stdafx.cpp
+  static2.cpp
+c:\users\hailv\documents\visual studio 2015\projects\labs\templatelab\static2\static2.cpp(11): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\hailv\documents\visual studio 2015\projects\labs\templatelab\static2\static2.cpp(17): error C3321: an initializer list is unexpected in this context

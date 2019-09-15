@@ -1,0 +1,5 @@
+﻿  randomseed.cpp
+c:\users\hailviral1\documents\visual studio 2017\projects\labs\templatelab\randomseed\randomseed.cpp(14): warning C4244: 'argument': conversion from 'const time_t' to 'unsigned int', possible loss of data
+c:\users\hailviral1\documents\visual studio 2017\projects\labs\templatelab\randomseed\randomseed.cpp(33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  randomseed.vcxproj -> C:\Users\hailviral1\Documents\Visual Studio 2017\Projects\Labs\TemplateLab\Debug\randomseed.exe
+  randomseed.vcxproj -> C:\Users\hailviral1\Documents\Visual Studio 2017\Projects\Labs\TemplateLab\Debug\randomseed.pdb (Partial PDB)

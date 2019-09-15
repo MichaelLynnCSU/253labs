@@ -1,0 +1,5 @@
+﻿  plus.cpp
+  negatecpp.cpp
+  functors.cpp
+  Generating Code...
+LINK : fatal error LNK1561: entry point must be defined

@@ -1,0 +1,29 @@
+The designed implemented for the AI portion consists of two centeral parts.
+The collision method is one these centeral parts that creates a circumstance for a decision to be made.
+The second key method is the path that is chosen to get to the target. 
+These two methods combined create a reactive AI once set into motion.
+
+The diagram created was meant to de[icte and provide incite into the inner workings of these methods.
+Reatiove AI is one of the most basic AI implimention, it was a perfect choice for a entity that is event driven.
+The AI is set into motion upon entering a boolean based while loop. 
+Each sequal pass across the cetral parts mentioned above set various entity state flags.
+The first method that is encountered is the handle events(HDE) method, this method increments the coord array and sets a entity heading.
+Once a position and direction has been established, this methods calls the collision check methods.
+
+The first collision method of importance is the targert collision, the secondray collision check is for movement.
+The movement collison check has two main fucntions, one is to avoid the bounding borders and the other is to avoid collinding with itself.
+The bounding boarders is handles by simple bounding box collision dection which is handled by the safe move(SM).
+As the snake get a clear set of flags and a decidided path, the entity moves into the game logic(GM) method that increasese the entity segments and increments
+the posisitoning of the entity to a new position. 
+The last part of the design is accomplished with rendering(RD) the stored positions and checking the flags for a reset(RE) condition
+
+Once a collsion event has been flagged the change direction(CR) method is called, this is when the entity gets to choose what direction it would
+like to move in as long as that direction does not trigger a collsion flag. 
+
+
+
+
+
+
+
+

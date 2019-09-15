@@ -1,0 +1,99 @@
+﻿  multiset.cpp
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.10.25017\include\xmemory0(840): error C2664: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &)': cannot convert argument 1 from 'const char' to 'std::initializer_list<_Elem>'
+          with
+          [
+              _Elem=char
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.10.25017\include\xmemory0(840): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.10.25017\include\xmemory0(959): note: see reference to function template instantiation 'void std::allocator<_Other>::construct<_Objty,const char&>(_Objty *,const char &)' being compiled
+          with
+          [
+              _Other=std::_Tree_node<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,void *>,
+              _Objty=std::basic_string<char,std::char_traits<char>,std::allocator<char>>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.10.25017\include\xmemory0(959): note: see reference to function template instantiation 'void std::allocator<_Other>::construct<_Objty,const char&>(_Objty *,const char &)' being compiled
+          with
+          [
+              _Other=std::_Tree_node<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,void *>,
+              _Objty=std::basic_string<char,std::char_traits<char>,std::allocator<char>>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.10.25017\include\xmemory0(1097): note: see reference to function template instantiation 'void std::allocator_traits<_Alloc>::construct<_Ty,const char&>(std::allocator<_Other> &,_Objty *,const char &)' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::_Tree_node<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,void *>>,
+              _Ty=std::basic_string<char,std::char_traits<char>,std::allocator<char>>,
+              _Other=std::_Tree_node<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,void *>,
+              _Objty=std::basic_string<char,std::char_traits<char>,std::allocator<char>>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.10.25017\include\xmemory0(1096): note: see reference to function template instantiation 'void std::allocator_traits<_Alloc>::construct<_Ty,const char&>(std::allocator<_Other> &,_Objty *,const char &)' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::_Tree_node<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,void *>>,
+              _Ty=std::basic_string<char,std::char_traits<char>,std::allocator<char>>,
+              _Other=std::_Tree_node<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,void *>,
+              _Objty=std::basic_string<char,std::char_traits<char>,std::allocator<char>>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.10.25017\include\xtree(904): note: see reference to function template instantiation 'void std::_Wrap_alloc<std::allocator<_Other>>::construct<_Ty,const char&>(_Ty *,const char &)' being compiled
+          with
+          [
+              _Other=std::_Tree_node<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,void *>,
+              _Ty=std::basic_string<char,std::char_traits<char>,std::allocator<char>>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.10.25017\include\xtree(902): note: see reference to function template instantiation 'void std::_Wrap_alloc<std::allocator<_Other>>::construct<_Ty,const char&>(_Ty *,const char &)' being compiled
+          with
+          [
+              _Other=std::_Tree_node<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,void *>,
+              _Ty=std::basic_string<char,std::char_traits<char>,std::allocator<char>>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.10.25017\include\xtree(1092): note: see reference to function template instantiation 'std::_Tree_node<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,void *> *std::_Tree_comp_alloc<_Traits>::_Buynode<const char&>(const char &)' being compiled
+          with
+          [
+              _Traits=std::_Tset_traits<std::string,std::less<std::string>,std::allocator<std::string>,false>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.10.25017\include\xtree(1092): note: see reference to function template instantiation 'std::_Tree_node<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,void *> *std::_Tree_comp_alloc<_Traits>::_Buynode<const char&>(const char &)' being compiled
+          with
+          [
+              _Traits=std::_Tset_traits<std::string,std::less<std::string>,std::allocator<std::string>,false>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.10.25017\include\xtree(1255): note: see reference to function template instantiation 'std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::basic_string<char,std::char_traits<char>,std::allocator<char>>>>> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::emplace_hint<const char&>(std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::basic_string<char,std::char_traits<char>,std::allocator<char>>>>>,const char &)' being compiled
+          with
+          [
+              _Kty=std::string,
+              _Pr=std::less<std::string>,
+              _Alloc=std::allocator<std::string>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.10.25017\include\xtree(1255): note: see reference to function template instantiation 'std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::basic_string<char,std::char_traits<char>,std::allocator<char>>>>> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::emplace_hint<const char&>(std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::basic_string<char,std::char_traits<char>,std::allocator<char>>>>>,const char &)' being compiled
+          with
+          [
+              _Kty=std::string,
+              _Pr=std::less<std::string>,
+              _Alloc=std::allocator<std::string>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.10.25017\include\set(103): note: see reference to function template instantiation 'void std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert<_Iter>(_Iter,_Iter)' being compiled
+          with
+          [
+              _Kty=std::string,
+              _Pr=std::less<std::string>,
+              _Alloc=std::allocator<std::string>,
+              _Iter=std::_String_const_iterator<std::_String_val<std::_Simple_types<char>>>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.10.25017\include\set(103): note: see reference to function template instantiation 'void std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert<_Iter>(_Iter,_Iter)' being compiled
+          with
+          [
+              _Kty=std::string,
+              _Pr=std::less<std::string>,
+              _Alloc=std::allocator<std::string>,
+              _Iter=std::_String_const_iterator<std::_String_val<std::_Simple_types<char>>>
+          ]
+  c:\users\hailviral1\documents\visual studio 2017\projects\labs\templatelab\multiset\multiset.cpp(33): note: see reference to function template instantiation 'std::set<std::string,std::less<_Kty>,std::allocator<_Kty>>::set<std::_String_const_iterator<std::_String_val<std::_Simple_types<char>>>>(_Iter,_Iter)' being compiled
+          with
+          [
+              _Kty=std::string,
+              _Iter=std::_String_const_iterator<std::_String_val<std::_Simple_types<char>>>
+          ]
+  c:\users\hailviral1\documents\visual studio 2017\projects\labs\templatelab\multiset\multiset.cpp(33): note: see reference to function template instantiation 'std::set<std::string,std::less<_Kty>,std::allocator<_Kty>>::set<std::_String_const_iterator<std::_String_val<std::_Simple_types<char>>>>(_Iter,_Iter)' being compiled
+          with
+          [
+              _Kty=std::string,
+              _Iter=std::_String_const_iterator<std::_String_val<std::_Simple_types<char>>>
+          ]

@@ -1,0 +1,2 @@
+﻿  iostream.cpp
+c:\users\hailviral1\documents\visual studio 2017\projects\labs\templatelab\iostrea\iostream.cpp(18): error C4700: uninitialized local variable 'z' used

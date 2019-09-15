@@ -1,0 +1,4 @@
+﻿  newOpScope.cpp
+c:\users\hailviral1\documents\visual studio 2017\projects\labs\templatelab\newopscope\newopscope.cpp(37): warning C4700: uninitialized local variable 'temp' used
+  newOpScope.vcxproj -> C:\Users\hailviral1\Documents\Visual Studio 2017\Projects\Labs\TemplateLab\Debug\newOpScope.exe
+  newOpScope.vcxproj -> C:\Users\hailviral1\Documents\Visual Studio 2017\Projects\Labs\TemplateLab\Debug\newOpScope.pdb (Partial PDB)
