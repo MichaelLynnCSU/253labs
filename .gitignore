@@ -4,3 +4,11 @@
 *.db
 .vs/Labs/v16/Browse.VC.db
 /.vs/Labs/v16/ipch/AutoPCH/f0658c930b1adb6b/ASSERTION.ipch
+*.tlog
+*.ipch
+*.obj
+*.idb
+*.pdb
+*.pch
+*.exe
+*.ilk
